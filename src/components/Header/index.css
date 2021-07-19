@@ -1,0 +1,108 @@
+.nav-header {
+  display: flex;
+  width: 100%;
+  min-height: 20vh;
+  background: #f8fafc;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-header {
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    padding: 32px;
+    background: #f8fafc;
+    min-width: 100%;
+  }
+}
+
+.logo-and-title-container {
+  display: flex;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    height: 28px;
+    width: 35px;
+    left: 2px;
+    top: 2px;
+    border-radius: 0px;
+  }
+}
+
+.logo-title {
+  color: #f7931e;
+  font-family: 'DM Sans';
+  font-weight: bold;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo-title {
+    height: 24px;
+    width: 115px;
+    left: 71px;
+    top: 20px;
+  }
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  margin-left: 450px;
+}
+
+.nav-link-home {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #f7931e;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-link-home {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #f7931e;
+  }
+}
+
+.nav-link-cart {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #334155;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-link-cart {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #334155;
+  }
+}
+
+.header-button {
+  background: #f7931e;
+  font-family: 'DM Sans';
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  margin-right: 20px;
+  color: #ffffff;
+}

@@ -1,0 +1,108 @@
+.render-restaurant-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.details-container {
+  background: #333333;
+  height: 334px;
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  left: 0px;
+  top: 0px;
+  margin-top: 30px;
+}
+
+.details-image {
+  width: 445px;
+  height: 280px;
+  left: 165px;
+  top: 32px;
+  border-radius: 8px;
+}
+
+.detail-container {
+  padding: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.restaurant-name {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.restaurant-cuisine {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.restaurant-location {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.rating-container {
+  display: flex;
+}
+
+.items-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.rating-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.rating-de {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rating-star {
+  color: #ffffff;
+  width: 15px;
+}
+
+.all-details-rating {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.all-rtg {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.all-hr {
+  width: 33px;
+  height: 0px;
+  left: 746px;
+  top: 222px;
+  border: 1px solid #e2e8f0;
+  transform: rotate(90deg);
+}

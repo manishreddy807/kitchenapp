@@ -1,0 +1,42 @@
+.not-found-bg {
+  min-height: 100vh;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.not-found-img {
+  height: 297px;
+  width: 269px;
+  left: 586px;
+  top: 235px;
+  border-radius: 0px;
+}
+
+.not-found-para {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  color: #475569;
+}
+
+.not-found-btn {
+  color: #ffffff;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background: #f7931e;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+}

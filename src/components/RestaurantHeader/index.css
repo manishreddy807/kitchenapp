@@ -1,0 +1,87 @@
+.restaurant-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .restaurant-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.popular-name {
+  font-family: 'DM Sans';
+  font-size: 32px;
+  font-weight: bold;
+  color: #183b56;
+  margin-right: 320px;
+}
+
+@media screen and (max-width: 768px) {
+  .popular-name {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 50%;
+  }
+}
+
+.description {
+  font-family: 'DM Sans';
+  font-size: 16px;
+  font-weight: 500;
+  color: #64748b;
+  margin-right: 320px;
+}
+
+@media screen and (max-width: 768px) {
+  .description {
+    font-size: 12px;
+    margin-left: 100px;
+    width: 50%;
+  }
+}
+
+.sort-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .sort-container {
+    justify-content: none;
+    align-items: none;
+    margin-right: 200px;
+  }
+}
+
+.sort-by {
+  font-family: 'DM Sans';
+  font-size: 16px;
+  font-weight: 500;
+  color: #475569;
+}
+
+@media screen and (max-width: 768px) {
+  .sort-by {
+    font-size: 14px;
+  }
+}
+
+.select-option {
+  font-family: 'DM Sans';
+  font-size: 14px;
+  font-weight: 500;
+  color: #475569;
+}
+
+@media screen and (max-width: 768px) {
+  .select-option {
+    font-size: 12px;
+  }
+}
